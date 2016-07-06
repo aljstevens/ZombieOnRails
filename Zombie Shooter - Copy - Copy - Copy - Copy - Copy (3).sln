@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{AE150342-216F-935A-0A55-4C846288586F}") = "Zombie Shooter - Copy - Copy - Copy - Copy - Copy (3)", "Assembly-CSharp.csproj", "{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}"
+EndProject
+Project("{AE150342-216F-935A-0A55-4C846288586F}") = "Zombie Shooter - Copy - Copy - Copy - Copy - Copy (3)", "Assembly-CSharp-Editor.csproj", "{BC3894C0-20AD-669B-B083-687550E16A90}"
+EndProject
+Project("{AE150342-216F-935A-0A55-4C846288586F}") = "Zombie Shooter - Copy - Copy - Copy - Copy - Copy (3)", "Assembly-UnityScript.unityproj", "{879210D7-C87A-9BE5-4ECB-DBE63B5F9AB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3894C0-20AD-669B-B083-687550E16A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3894C0-20AD-669B-B083-687550E16A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3894C0-20AD-669B-B083-687550E16A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3894C0-20AD-669B-B083-687550E16A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879210D7-C87A-9BE5-4ECB-DBE63B5F9AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879210D7-C87A-9BE5-4ECB-DBE63B5F9AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879210D7-C87A-9BE5-4ECB-DBE63B5F9AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879210D7-C87A-9BE5-4ECB-DBE63B5F9AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

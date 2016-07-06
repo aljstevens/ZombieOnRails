@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{35E80475-1E4F-DA13-FCBC-8063E32202D1}") = "Zombie Shooter - Copy - Copy", "Assembly-CSharp.csproj", "{4ACD6DF6-C0B8-5C1A-7A6B-16A0A4A0BA54}"
+EndProject
+Project("{35E80475-1E4F-DA13-FCBC-8063E32202D1}") = "Zombie Shooter - Copy - Copy", "Assembly-UnityScript.unityproj", "{D5CF31A3-9BF9-0AE1-6B42-40A5491589C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ACD6DF6-C0B8-5C1A-7A6B-16A0A4A0BA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACD6DF6-C0B8-5C1A-7A6B-16A0A4A0BA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACD6DF6-C0B8-5C1A-7A6B-16A0A4A0BA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACD6DF6-C0B8-5C1A-7A6B-16A0A4A0BA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5CF31A3-9BF9-0AE1-6B42-40A5491589C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5CF31A3-9BF9-0AE1-6B42-40A5491589C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5CF31A3-9BF9-0AE1-6B42-40A5491589C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5CF31A3-9BF9-0AE1-6B42-40A5491589C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
