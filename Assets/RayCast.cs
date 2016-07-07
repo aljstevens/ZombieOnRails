@@ -42,10 +42,10 @@ public class RayCast : MonoBehaviour {
 			if (Input.GetButtonDown ("Fire1") && gun.GunLoaded == true)
 			{
 
-				if (hit.transform.tag == ("Soldier"))
-				{
-					Debug.Log ("HitFriendly");
-				}
+//				if (hit.transform.tag == ("Soldier"))
+//				{
+//					Debug.Log ("HitFriendly");
+//				}
 
 				if (hit.transform.tag == ("Barrel"))
 				{

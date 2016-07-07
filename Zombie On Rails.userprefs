@@ -1,15 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\BarrelShot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Allies\SoldierAttack.cs">
     <Files>
-      <File FileName="Assets\ClearArea.cs" Line="18" Column="1" />
-      <File FileName="Assets\RayCast.cs" Line="52" Column="22" />
-      <File FileName="Assets\Scripts\Allies\SoldierAttack.cs" Line="61" Column="20" />
-      <File FileName="Assets\Scripts\Player Scripts\Gun.cs" Line="30" Column="21" />
-      <File FileName="Assets\Scripts\Enemies\AnimatorScript.cs" Line="119" Column="2" />
-      <File FileName="Assets\Counted.cs" Line="23" Column="5" />
-      <File FileName="Assets\GM.cs" Line="14" Column="57" />
-      <File FileName="Assets\Scripts\Enemies\BarrelShot.cs" Line="1" Column="1" />
+      <File FileName="Assets\GM.cs" Line="1" Column="1" />
+      <File FileName="Assets\ClearArea.cs" Line="26" Column="4" />
+      <File FileName="Assets\RayCast.cs" Line="60" Column="1" />
+      <File FileName="Assets\Scripts\Allies\SoldierAttack.cs" Line="57" Column="4" />
+      <File FileName="Assets\Scripts\Player Scripts\Gun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\AnimatorScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Counted.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemies\BarrelShot.cs" Line="38" Column="1" />
+      <File FileName="Assets\Movement1.cs" Line="1" Column="1" />
+      <File FileName="Assets\MoveArrow.cs" Line="28" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

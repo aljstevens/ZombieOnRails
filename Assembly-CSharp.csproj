@@ -49,6 +49,7 @@
      <Compile Include="Assets\Counted.cs" />
      <Compile Include="Assets\Downloads\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\GM.cs" />
+     <Compile Include="Assets\MoveArrow.cs" />
      <Compile Include="Assets\Movement1.cs" />
      <Compile Include="Assets\RayCast.cs" />
      <Compile Include="Assets\Scripts\Allies\SoldierAttack.cs" />
