@@ -6,21 +6,21 @@ public class Shot : MonoBehaviour {
 	public float Health=10f;
 	public bool PlayerIsAttacked;
 
-	private Gun gun;
-	public GameObject Player;
-
+//	private Gun gun;
+//	public GameObject Player;
+//
 	// Use this for initialization
 	void Awake () 
 	{
-		if (Player == null)
-		{
-			Player = GameObject.FindWithTag ("Player");
-		}
-
-		if (gun == null)
-		{
-			gun = Player.GetComponent <Gun> ();
-		}
+//		if (Player == null)
+//		{
+//			Player = GameObject.FindWithTag ("Player");
+//		}
+//
+//		if (gun == null)
+//		{
+//			gun = Player.GetComponent <Gun> ();
+//		}
 	}
 	
 	// Update is called once per frame
@@ -28,15 +28,15 @@ public class Shot : MonoBehaviour {
 	{
 
 	}
-
-	void OnMouseDown()
-	{
-		if (gun.GunLoaded == true) 
-		{
-			Debug.Log ("Clicked");
-			Health -= gun.GunDamageAmount;
-		}
-	}
+//
+//	void OnMouseDown()
+//	{
+//		if (gun.GunLoaded == true) 
+//		{
+//			Debug.Log ("Clicked");
+//			Health -= gun.GunDamageAmount;
+//		}
+//	}
 
 	void OnTriggerEnter (Collider other)
 	{

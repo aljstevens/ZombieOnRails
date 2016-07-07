@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BED7C063-C22A-7B41-2D06-42EEB6A5FD9A}</ProjectGuid>
+    <ProjectGuid>{C765B320-7103-DAA8-8F48-7B0E1953D4C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ClearArea.cs" />
+     <Compile Include="Assets\Counted.cs" />
      <Compile Include="Assets\Downloads\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\GM.cs" />
      <Compile Include="Assets\Movement1.cs" />
      <Compile Include="Assets\RayCast.cs" />
      <Compile Include="Assets\Scripts\Allies\SoldierAttack.cs" />

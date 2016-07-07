@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{750F7CF2-262E-6368-929F-DE0B476F2856}") = "Zombie On Rails", "Assembly-CSharp.csproj", "{C765B320-7103-DAA8-8F48-7B0E1953D4C9}"
+EndProject
+Project("{750F7CF2-262E-6368-929F-DE0B476F2856}") = "Zombie On Rails", "Assembly-CSharp-Editor.csproj", "{AFD3986A-7E52-E045-1A78-8C71F04F99D2}"
+EndProject
+Project("{750F7CF2-262E-6368-929F-DE0B476F2856}") = "Zombie On Rails", "Assembly-UnityScript.unityproj", "{CA8C751D-870E-BCA5-DDD3-115376897DF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C765B320-7103-DAA8-8F48-7B0E1953D4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C765B320-7103-DAA8-8F48-7B0E1953D4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C765B320-7103-DAA8-8F48-7B0E1953D4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C765B320-7103-DAA8-8F48-7B0E1953D4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD3986A-7E52-E045-1A78-8C71F04F99D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD3986A-7E52-E045-1A78-8C71F04F99D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD3986A-7E52-E045-1A78-8C71F04F99D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD3986A-7E52-E045-1A78-8C71F04F99D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8C751D-870E-BCA5-DDD3-115376897DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8C751D-870E-BCA5-DDD3-115376897DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8C751D-870E-BCA5-DDD3-115376897DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8C751D-870E-BCA5-DDD3-115376897DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

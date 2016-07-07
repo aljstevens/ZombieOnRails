@@ -54,7 +54,7 @@ public class SoldierAttack : MonoBehaviour {
 		if (AttackTime <= 0) 
 		{
 			shot = EnemyTarget.GetComponent <Shot> ();
-			shot.Health -= 0;
+			shot.Health -= 3;
 			AttackTime = Random.Range (1, 3);
 			Instantiate(Flash, GunBarrel.transform.position, GunBarrel.transform.rotation);
 
