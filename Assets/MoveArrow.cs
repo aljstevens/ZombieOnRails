@@ -19,6 +19,7 @@ public class MoveArrow : MonoBehaviour {
 	{
 		if (Used == true) 
 		{
+			Player.transform.LookAt (target.transform);
 			Player.transform.position = Vector3.MoveTowards (Player.transform.position, target.transform.position, .1f);
 		}
 	}

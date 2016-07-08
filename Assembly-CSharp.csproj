@@ -49,6 +49,7 @@
      <Compile Include="Assets\Counted.cs" />
      <Compile Include="Assets\Downloads\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\GM.cs" />
+     <Compile Include="Assets\MouseOver.cs" />
      <Compile Include="Assets\MoveArrow.cs" />
      <Compile Include="Assets\Movement1.cs" />
      <Compile Include="Assets\RayCast.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Scripts\Enemies\Shot.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\Life.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\Life1.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\MouseShoot.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\MoveButton.cs" />
      <Compile Include="Assets\Scripts\Player Scripts\PlayerHealth.cs" />
@@ -68,6 +70,7 @@
      <None Include="Assets\Downloads\ZGONAssets\Modern_ConcreteBuildingExt_01\readme.txt" />
      <None Include="Assets\Downloads\ZGONAssets\Modern_ConcreteBuildingExt_01\Modern_ConcreteBuildingExt_01.xml" />
      <None Include="Assets\SciFi_Door\readme.txt" />
+     <None Include="Assets\PBS Materials Variety Pack\readme.txt" />
      <None Include="Assets\Downloads\Cartoon Soldier\Readme.txt" />
      <None Include="Assets\Downloads\ZGONAssets\Shared\Shaders\ZGONShaderOps.cginc" />
  <Reference Include="UnityEngine.UI">

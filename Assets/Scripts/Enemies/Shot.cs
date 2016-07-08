@@ -4,7 +4,10 @@ using System.Collections;
 public class Shot : MonoBehaviour {
 	
 	public float Health=10f;
+	public float CurrentHealth;
 	public bool PlayerIsAttacked;
+
+	public GameObject Blood;
 
 //	private Gun gun;
 //	public GameObject Player;
@@ -12,21 +15,18 @@ public class Shot : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
 	{
-//		if (Player == null)
-//		{
-//			Player = GameObject.FindWithTag ("Player");
-//		}
-//
-//		if (gun == null)
-//		{
-//			gun = Player.GetComponent <Gun> ();
-//		}
+		CurrentHealth = Health;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		if (CurrentHealth != Health) 
+		{
+			Instantiate(Blood, gameObject.transform.position, gameObject.transform.rotation);
+			CurrentHealth = Health;
 
+		}
 	}
 //
 //	void OnMouseDown()
