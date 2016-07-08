@@ -51,7 +51,6 @@
      <None Include="Assets\Downloads\ZGONAssets\Modern_ConcreteBuildingExt_01\readme.txt" />
      <None Include="Assets\Downloads\ZGONAssets\Modern_ConcreteBuildingExt_01\Modern_ConcreteBuildingExt_01.xml" />
      <None Include="Assets\SciFi_Door\readme.txt" />
-     <None Include="Assets\PBS Materials Variety Pack\readme.txt" />
      <None Include="Assets\Downloads\Cartoon Soldier\Readme.txt" />
      <None Include="Assets\Downloads\ZGONAssets\Shared\Shaders\ZGONShaderOps.cginc" />
  <Reference Include="UnityEditor.Advertisements">

@@ -6,7 +6,9 @@ public class MoveArrow : MonoBehaviour {
 	public GameObject Player;
 	public Transform target;
 	public Transform target2;
+	public Transform LookPoint;
 	public GameObject LastAreaClear;
+	public GameObject NextAreaZombies;
 
 	public bool Used;
 	public float MoveTime=4f;
@@ -30,6 +32,11 @@ public class MoveArrow : MonoBehaviour {
 			Player.transform.LookAt (target2.transform);
 			Player.transform.position = Vector3.MoveTowards (Player.transform.position, target2.transform.position, .1f);
 		}
+
+		if (MoveTime <= -1 && target2 != null)
+		{
+			Player.transform.LookAt (LookPoint.transform);
+		}
 	}
 
 	void OnMouseDown()
@@ -37,6 +44,7 @@ public class MoveArrow : MonoBehaviour {
 		Used = true;
 		LastAreaClear.SetActive (false);
 		Debug.Log ("Arrowed");
+		NextAreaZombies.SetActive (true);
 	}
 
 	void FixedUpdate ()
